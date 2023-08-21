@@ -2,7 +2,7 @@
 
 const UserCard = ({user, deleteUser, handleClickUpdateUser }) => {
   return (
-    <article className="p-9 grid gap-1 border-2 border-slate-200 w-[381px] h-[260px]">
+    <article className="p-9 grid gap-1 border-2 border-slate-200 sm:w-[381px] h-[260px]">
       <h2 className="font-semibold text-[18px]">{`${user.first_name } ${user.last_name}`}</h2>
       <hr />
       <div>

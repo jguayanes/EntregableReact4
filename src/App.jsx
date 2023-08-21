@@ -69,9 +69,9 @@ function App() {
 
   return (
     <>
-      <header className='flex justify-between p-5'>
-        <h1 className='text-[50px] font-bold'>Usuarios</h1>
-        <button onClick={handleClickOpenModal} className='relative top-6 bg-[#555A88]/80 w-[227px] h-[45px] cursor-pointer text-white'>+ Crear nuevo usuario </button>
+      <header className="flex p-3 justify-around gap-3 sm:flex sm:justify-between sm:p-5'">
+        <h1 className='text-[30px] sm:text-[50px] font-bold'>Usuarios</h1>
+        <button onClick={handleClickOpenModal} className='w-[123px] sm:relative  bg-[#555A88]/80 sm:top-6 sm:w-[227px] h-[45px] cursor-pointer text-white'>+ Crear nuevo usuario </button>
       </header>
       <main>
         <UserForm 
