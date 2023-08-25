@@ -17,6 +17,7 @@ const {
 } = useForm();
 
 const submit = (data) => {
+  data.image_url = null
   if (isUserUpdate){
     updateUser(data, reset);
   } else {
