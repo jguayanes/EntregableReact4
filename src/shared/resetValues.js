@@ -3,5 +3,5 @@ export const emptyFormValues = {
     last_name: "",
     email: "",
     password: "",
-    birthfay: ""
+    birthday: ""
 } 
